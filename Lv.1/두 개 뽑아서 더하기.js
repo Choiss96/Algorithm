@@ -1,0 +1,18 @@
+function solution(numbers) {
+    let answer = [];
+    
+    for(let i = 0; i < numbers.length-1; i++) {
+        for(let j = i + 1; j < numbers.length; j++) {
+            let a = numbers[i] + numbers[j];
+            
+            answer.push(a);
+        }
+    }
+    
+    let set = new Set(answer);
+    let result = [...set];
+    
+    result.sort((a, b) => a - b);
+    
+    return result;
+}
