@@ -8,12 +8,8 @@ function solution(survey, choices) {
     }
     
     for(let i = 0; i < survey.length; i++) {
-        if(choices[i] === 1) {
-            mbti[survey[i][0]] += 3;
-        } else if (choices[i] === 2) {
-            mbti[survey[i][0]] += 2;
-        } else if (choices[i] === 3) {
-            mbti[survey[i][0]] += 1;
+        if(choices[i] >= 1 && choices[i] <= 3) {
+            mbti[survey[i][0]] += 4-choices[i];
         } else if(choices[i] >= 5 && choices[i] <= 7) {
             mbti[survey[i][1]] += choices[i]-4;
         } else continue;
