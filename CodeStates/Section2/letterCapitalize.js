@@ -16,4 +16,5 @@ function letterCapitalize(str) {
     let result = answer.join(' ');
   
     return result;
+    
   }
