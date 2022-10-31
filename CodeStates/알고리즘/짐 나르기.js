@@ -28,7 +28,6 @@ function movingStuff(stuff, limit) {
   
   // 안 풀린 코드
   // function movingStuff(stuff, limit) {
-  //   // TODO: 여기에 코드를 작성합니다.
   //   let count = 0;
   //   let sort_stuff = stuff.sort((a, b) => b - a);
   
