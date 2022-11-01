@@ -1,5 +1,4 @@
 const isSubsetOf = function (base, sample) {
-    // 못 풀었음 레퍼런스 코드 이해하기
   
     // naive solution: O(M * N)
     // return sample.every((item) => base.includes(item));
