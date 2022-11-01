@@ -8,7 +8,7 @@ let dfs = function (node) {
     return values;
   };
   
-  // 이 아래 코드는 변경하지 않아도 됩니다. 자유롭게 참고하세요.
+
   let Node = function (value) {
     this.value = value;
     this.children = [];
