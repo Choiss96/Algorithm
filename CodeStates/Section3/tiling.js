@@ -1,5 +1,4 @@
 let tiling = function (n) {
-    // 못 풀었음 다시 풀어볼 것
     const memo = [0, 1, 2];
   
     // 재귀를 위한 보조 함수(auxiliary function)을 선언)
