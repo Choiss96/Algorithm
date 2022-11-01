@@ -1,4 +1,3 @@
-
 const rotatedArraySearch = function (rotated, target) {
     let left = 0,
       right = rotated.length - 1;
