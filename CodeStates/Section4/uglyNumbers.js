@@ -1,4 +1,3 @@
-// O(N)
 const uglyNumbers = function (n) {
     // 매번 나눗셈 연산을 하는 것이 비효율적이므로
     // 이미 구한 수에서부터 구한다.
