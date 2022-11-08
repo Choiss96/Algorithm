@@ -1,4 +1,5 @@
 // LOOK UP TABLE을 사용한다면 조건문을 추상화시킬 수 있습니다.
+
 function boardGame(board, operation) {
     const DIR = {
       'U': [-1, 0],
