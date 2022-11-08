@@ -25,8 +25,8 @@ function movingStuff(stuff, limit) {
     // 전체 짐의 개수에서 한번에 2개를 나를 수 있는 경우를 빼 주면 총 필요한 박스의 개수를 구할 수 있다
     return stuff.length - twoStuff;
   }
+
   
-  // 안 풀린 코드
   // function movingStuff(stuff, limit) {
   //   let count = 0;
   //   let sort_stuff = stuff.sort((a, b) => b - a);
